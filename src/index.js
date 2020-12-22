@@ -60,7 +60,19 @@ const arr5 = [30, 40];
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
 
-const arr8 = arr4;
-console.log(arr8);
-arr8[0] = 100;
-console.log(arr4);
+// const arr8 = arr4;
+// console.log(arr8);
+// arr8[0] = 100;
+// console.log(arr4);
+
+const nameArr = ["田中", "山田", "yu"];
+// for (let i = 0; i < nameArr.length; i++) {
+//   console.log(nameArr[i]);
+// }
+
+// const nameArr2 = nameArr.map((name) =>{
+//   return name;
+// });
+// console.log(nameArr2);
+
+nameArr.map((name) => console.log(name));
