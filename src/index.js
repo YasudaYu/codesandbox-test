@@ -65,7 +65,6 @@ const arr5 = [30, 40];
 // arr8[0] = 100;
 // console.log(arr4);
 
-const nameArr = ["田中", "山田", "yu"];
 // for (let i = 0; i < nameArr.length; i++) {
 //   console.log(nameArr[i]);
 // }
@@ -75,4 +74,23 @@ const nameArr = ["田中", "山田", "yu"];
 // });
 // console.log(nameArr2);
 
-nameArr.map((name) => console.log(name));
+// nameArr.map((name) => console.log(name));
+
+// const numArr = [1, 2, 3, 4, 5];
+// // const newNumArr = numArr.filter((num) => {
+// //   return num % 2 === 1;
+// // });
+// // console.log(newNumArr);
+
+// // nameArr.map((name, index) => console.log(`${index + 1}の要素は${name}です`));
+
+// const nameArr = ["田中", "山田", "yu"];
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "yu") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
