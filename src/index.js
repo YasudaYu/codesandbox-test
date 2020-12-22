@@ -106,3 +106,8 @@ const arr5 = [30, 40];
 //   return num1 + num2 > 100 ? "100を超えています!!" : "許容範囲内です";
 // };
 // console.log(checkSum(500, 1));
+
+// ||は左がfalseなら右を返す
+const num = 100;
+const fee = num && "金額未設定です";
+console.log(fee);
