@@ -11,10 +11,19 @@ document.getElementById("app").innerHTML = `
 
 // 分割代入
 
-const myProfile = {
-  name: "yu",
-  age: 26
-};
+// const myProfile = {
+//   name: "yu",
+//   age: 26
+// };
 
-const message1 = `名前は${myProfile.name}, 年齢は${myProfile.age}です。`;
-console.log(message1);
+// const { name, age } = myProfile;
+// const message1 = `名前は${name}, 年齢は${age}です。`;
+// console.log(message1);
+
+const myProfile = ["yu", 26];
+
+const message3 = `名前は${myProfile[0]}, 年齢は${myProfile[1]}`;
+
+const [name, age] = myProfile;
+const message4 = `名前は${name}、年齢は${age}`;
+console.log(message4);
